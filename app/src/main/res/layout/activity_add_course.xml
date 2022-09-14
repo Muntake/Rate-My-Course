@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCourseActivity"
+    android:background="@drawable/back_round">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewSchoolName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:typeface="sans"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_course"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+            <EditText
+                android:id="@+id/editTextCourseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:hint="@string/course_name"
+                android:textColorHint="@color/white"/>
+
+            <EditText
+                android:id="@+id/editTextCourseInstructor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:hint="@string/course_current_instructor"
+                android:textColorHint="@color/white"/>
+
+            <EditText
+                android:id="@+id/editTextCourseDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:hint="@string/course_department"
+                android:textColorHint="@color/white"/>
+
+            <EditText
+                android:id="@+id/editTextCourseYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:hint="@string/course_year"
+                android:textColorHint="@color/white"/>
+
+            <Button
+                android:id="@+id/buttonAddCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/launch_button"
+                android:text="@string/add_course"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/courses"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+            <ListView
+                android:id="@+id/listViewCourses"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

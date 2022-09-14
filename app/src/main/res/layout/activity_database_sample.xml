@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/back_round">
+
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/logoText"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/school_name"
+        android:textColorHint="@color/white"/>
+
+    <Spinner
+        android:id="@+id/spinnerProvinces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/provinces"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/school_city"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/school_email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/school_address"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/school_phone"
+        android:inputType="phone"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextPostalCode"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/school_postal_code"
+        android:inputType="textPostalAddress"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonAddSchool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/databaseSampleButton"
+        android:textStyle="bold"
+        android:background="@drawable/launch_button" />
+
+</LinearLayout>

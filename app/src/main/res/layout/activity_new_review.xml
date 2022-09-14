@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewRating"
+    android:padding="20dp"
+    android:background="@drawable/back_round">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/schoolNameRate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+                            android:typeface="sans"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/courseNameRate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="30sp"
+                            android:typeface="sans"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ratingStars"
+                            android:textColor="@color/white"
+                            android:textSize="20dp" />
+
+                        <RatingBar
+                            android:id="@+id/rateBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:numStars="5" />
+
+                        <TextView
+                            android:id="@+id/gradeGiven"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/gradeGiven"
+                            android:textColor="@color/white"
+                            android:textSize="20dp" />
+
+                        <Spinner
+                            android:id="@+id/spinnerGrades"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/professor_name" />
+
+                        <EditText
+                            android:id="@+id/profName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/enter_prof_name"
+                            android:textColor="@color/white"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/User_Review" />
+
+                        <EditText
+                            android:id="@+id/ratingText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lines="10"
+                            android:minLines="8"
+                            android:gravity="top|left"
+                            android:maxLines="15"
+                            android:hint="@string/nameText"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/submitRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="20dp"
+                            android:background="@drawable/launch_button"
+                            android:text="@string/Create_new_review" />
+
+                </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+</FrameLayout>

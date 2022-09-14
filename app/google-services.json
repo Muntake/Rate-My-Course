@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "598617544726",
+    "firebase_url": "https://ratemycourse-fc663-default-rtdb.firebaseio.com",
+    "project_id": "ratemycourse-fc663",
+    "storage_bucket": "ratemycourse-fc663.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598617544726:android:e9455a077db18b99ee7d37",
+        "android_client_info": {
+          "package_name": "com.example.ratemycourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598617544726-s5d7eqlltbasblt4t1k4m2g1rf0th7dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3DzJCK1m7Z2EZQIVXt4QhNoC1oXZ6vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598617544726-s5d7eqlltbasblt4t1k4m2g1rf0th7dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

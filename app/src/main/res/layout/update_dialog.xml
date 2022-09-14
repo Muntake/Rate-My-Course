@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_round">
+
+    <EditText
+        android:id="@+id/updateSchoolName"
+        android:textStyle="bold"
+        android:hint="@string/school_name"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/updateSpinnerSchool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/provinces" />
+
+    <EditText
+
+        android:id="@+id/updateSchoolCity"
+        android:hint="@string/school_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/updateSchoolEmail"
+        android:textStyle="bold"
+        android:hint="@string/school_email"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/updateSchoolAddress"
+        android:textStyle="bold"
+        android:hint="@string/school_address"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/updateSchoolPhone"
+        android:textStyle="bold"
+        android:hint="@string/school_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/updateSchoolPostalCode"
+        android:textStyle="bold"
+        android:hint="@string/school_postal_code"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonUpdateSchool"
+        android:text="@string/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:text="@string/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

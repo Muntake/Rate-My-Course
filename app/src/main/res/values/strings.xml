@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">RateMyCourse</string>
+    <string name="updateProfileButton">Update Profile</string>
+    <string name="deleteProfileButton">Delete Profile</string>
+    <string name="loginBtn">Login</string>
+    <string name="registerBtn">Sign Up</string>
+    <string name="logoText">RateMyCourse</string>
+    <string name="loginText">Email</string>
+    <string name="passwordText">Password</string>
+    <string name="majorText">Major</string>
+    <string name="usernameText">Username</string>
+    <string name="user">User: </string>
+    <string name="loginBtnText">Login</string>
+    <string name="nameText">Be More Specific</string>
+    <string name="nameText2">Full Name</string>
+    <string name="signUpBtnText">Sign Up</string>
+    <string name="Create_new_review">Create New Review</string>
+    <string name="Course_title">course</string>
+    <string name="endorse">Endorse Rating</string>
+    <string name="Reviews">Student Reviews</string>
+    <string name="enter_prof_name">Enter Current Professors Name</string>
+    <string name="User_Review">A Chance to Share More</string>
+    <string name="gradeGiven">Grade Received</string>
+    <string name="ratingStars">Rate the Course</string>
+    <string name="schoolSearchStartText">Enter school name here</string>
+    <string name="homePageSearchSchool">Search School</string>
+    <string name="homePageEditProfile">Edit profile</string>
+    <string name="homePageAddRating">Add rating here</string>
+    <string name="homePageLogout">Logout</string>
+    <string name="rate_number">12</string>
+    <string name="rate">Course Ratings</string>
+    <string name="review_number">2</string>
+    <string name="review">Ratings Endorsed</string>
+    <string name="update">Update School</string>
+    <string name="courseSearchStartText">Enter course code</string>
+    <string name="writeNewReview">Write a New Review</string>
+    <string name="new_rev">New Review</string>
+    <string name="viewReviews">View Reviews</string>
+    <string name="databaseSample">Database Sample</string>
+    <string name="databaseSampleTitle">Add New School</string>
+    <string name="databaseSampleButton">Add School</string>
+    <string name="school_name">Enter School Name</string>
+    <string name="school_province">Select Province</string>
+    <string name="userOverview">Profile Overview</string>
+    <string name="school_city">Enter City</string>
+    <string-array name="provinces">
+        string.
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Nova Scotia</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+    </string-array>
+    <string-array name="grades">
+        string.
+        <item>Select Grade</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>D-</item>
+        <item>F</item>
+        <item>N/A</item>
+    </string-array>
+    <string name="school_email">Enter Email</string>
+    <string name="school_phone">Enter Phone Number</string>
+    <string name="school_address">Enter Address</string>
+    <string name="school_postal_code">Enter Postal Code</string>
+    <string name="course_name">Enter Course Name</string>
+    <string name="add_course">Add Course</string>
+    <string name="courses">Courses</string>
+    <string name="course_current_instructor">Enter Current Instructor</string>
+    <string name="course_department">Enter Department</string>
+    <string name="course_year">Enter Course Year</string>
+    <string name="delete">Delete School</string>
+    <string name="rating">Rating: </string>
+    <string name="ratingText">Further Comments: </string>
+    <string name="professor_name">Current Professor</string>
+    <string name="professor_name2">Current Professor: </string>
+</resources>

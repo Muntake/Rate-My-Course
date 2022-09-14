@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_round"
+    tools:context=".HomePage">
+
+    <ProgressBar
+        style="@style/Widget.MaterialComponents.CircularProgressIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="63dp"
+            android:gravity="center_horizontal"
+            android:text="RateMyCourse"
+            android:textColor="@color/white"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/searchSchoolButton"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/launch_button"
+            android:drawableLeft="@drawable/school"
+            android:text="@string/homePageSearchSchool" />
+
+        <Button
+            android:id="@+id/editProfileButton"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/launch_button"
+            android:drawableLeft="@drawable/edit_icon"
+            android:text="@string/homePageEditProfile" />
+
+        <Button
+            android:id="@+id/databaseSample"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/launch_button"
+            android:drawableLeft="@drawable/database_icon"
+            android:text="@string/databaseSampleTitle" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#4B6C8D"
+            app:menu="@menu/bottom_nav_menu" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
